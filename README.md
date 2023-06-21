@@ -1,5 +1,5 @@
 # Habitatlivingbeing
-Simulação de Pequeno Habitat
+Simulação de Pequeno Habitat (Java)
 Este repositório contém um código para simular um pequeno habitat, onde vivem seis espécies de seres vivos: duas espécies de plantas (sálvia e rosmarinho) e quatro espécies de animais (coelhos pigmeus, coelhos europeus, raposas vermelhas e raposas velozes).
 
 Funcionalidades
@@ -24,30 +24,28 @@ O usuário selecionar a opção para encerrar a simulação.
 Todas as interações com o usuário são validadas para evitar erros durante a execução da simulação. Em casos necessários, são tratadas exceções.
 
 Requisitos e Execução
-Python 3.x
+Java Development Kit (JDK)
+IDE de sua escolha (Eclipse, IntelliJ, etc.)
 Para executar a simulação, siga as etapas abaixo:
 
 Clone este repositório:
 
 bash
 Copy code
-Navegue até o diretório do projeto:
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Abra o projeto em sua IDE Java.
 
-arduino
-Copy code
-cd nome-do-repositorio
-Execute o arquivo principal:
+Compile e execute o arquivo principal.
 
-Copy code
-python simulation.py
-Siga as instruções fornecidas na linha de comando para interagir com a simulação.
+Siga as instruções fornecidas no console para interagir com a simulação.
 
 Contribuição
-Contribuições para aprimorar esse projeto são sempre bem-vindas. Sinta-se à vontade para abrir issues e enviar pull requests.
+Contribuições para aprimorar este projeto são sempre bem-vindas. Sinta-se à vontade para abrir issues e enviar pull requests.
 
 Licença
+[Inserir a licença aplicável ao projeto]
 
-Small Habitat Simulation
+Small Habitat Simulation (Java)
 This repository contains code to simulate a small habitat where six species of living organisms reside: two species of plants (sage and rosemary) and four species of animals (pygmy rabbits, European rabbits, red foxes, and swift foxes).
 
 Features
@@ -62,33 +60,4 @@ Each simulation step involves feeding and reproduction for each living organism.
 
 Users indicate the number of simulation steps they want to execute.
 
-At the start of the simulation and after executing the specified number of steps, the number of individuals for each species is displayed, along with their corresponding reproduction probability and rate.
-
-The simulation ends under the following conditions:
-
-The total number of living organisms exceeds a predefined limit.
-Any species of living organisms becomes extinct.
-The user chooses to end the simulation.
-All user interactions are validated to prevent errors during the simulation. Exception handling is implemented as needed.
-
-Requirements and Execution
-Python 3.x
-To run the simulation, follow the steps below:
-
-Clone this repository:
-
-bash
-Copy code
-Navigate to the project directory:
-
-bash
-Copy code
-cd repository-name
-Run the main file:
-
-Copy code
-python simulation.py
-Follow the instructions provided in the command line to interact with the simulation.
-
-Contribution
-Contributions to improve this project are always welcome. Feel free to open issues and submit pull requests.
+At the start of the simulation and after executing the specified number of steps, the number of individuals for each species is
